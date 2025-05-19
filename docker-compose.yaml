@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  backend:
+    build: .
+    container_name: transfer-money-backend
+    ports:
+      - "5500:8080"
+    restart: always
+
