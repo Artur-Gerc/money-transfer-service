@@ -1,0 +1,237 @@
+2025-06-05T14:47:36.008+05:00  INFO 16028 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Starting ConfirmOperationControllerIntegrationTest using Java 17.0.13 with PID 16028 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T14:47:36.011+05:00  INFO 16028 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:47:37.241+05:00  INFO 16028 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Started ConfirmOperationControllerIntegrationTest in 1.48 seconds (process running for 2.335)
+2025-06-05T14:47:37.253+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:37.443+05:00  INFO 16028 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-05T14:47:37.452+05:00  INFO 16028 --- [transfer-money] [main] .t.d.DockerMachineClientProviderStrategy : docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\Git\cmd, C:\Program Files (x86)\Java\jdk-23\bin\javaw.exe, C:\Program Files\apache-maven-3.9.9, C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1, C:\Program Files\JetBrains\jetbra, C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1\plugins\maven\lib\maven3\bin, C:\Program Files\Java\jdk-23\bin, , C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\nodejs\, C:\Users\AR\AppData\Local\JetBrains\Toolbox\scripts, C:\Users\AR\AppData\Local\Programs\Microsoft VS Code\bin, C:\Program Files\apache-maven-3.9.9, C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1, C:\Program Files\JetBrains\jetbra, C:\Program Files\JetBrains\IntelliJ IDEA 2024.3.1.1\plugins\maven\lib\maven3\bin, C:\Program Files\Java\jdk-23\bin, C:\Program Files\Java\jdk-23, C:\Users\AR\AppData\Roaming\npm])
+2025-06-05T14:47:37.453+05:00 ERROR 16028 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+2025-06-05T14:47:38.120+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.130+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.137+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.156+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.168+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.182+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.191+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.197+05:00  INFO 16028 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:47:38.237+05:00  INFO 16028 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : Starting TransferRequestDtoMoneyApplicationTests using Java 17.0.13 with PID 16028 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T14:47:38.238+05:00  INFO 16028 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:47:38.380+05:00  INFO 16028 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : Started TransferRequestDtoMoneyApplicationTests in 0.158 seconds (process running for 3.474)
+2025-06-05T14:47:38.477+05:00  INFO 16028 --- [transfer-money] [main] r.t.util.TransferDataValidateUtil        : Валидация платежных данных успешна: TransferRequest{cardFromNumber='1111111111111111', cardToNumber='2222222222222222', amount=Amount(currency=RUB, value=1000)}
+2025-06-05T14:51:07.160+05:00  INFO 19788 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Starting ConfirmOperationControllerIntegrationTest using Java 17.0.13 with PID 19788 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T14:51:07.161+05:00  INFO 19788 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:51:08.408+05:00  INFO 19788 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Started ConfirmOperationControllerIntegrationTest in 1.506 seconds (process running for 2.337)
+2025-06-05T14:51:08.423+05:00  INFO 19788 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:51:08.593+05:00  INFO 19788 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-05T14:51:08.822+05:00  INFO 19788 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-05T14:51:08.824+05:00  INFO 19788 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-06-05T14:51:08.840+05:00  INFO 19788 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 28.0.4
+  API Version: 1.48
+  Operating System: Docker Desktop
+  Total Memory: 3921 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-06-05T14:51:08.873+05:00  INFO 19788 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Creating container for image: testcontainers/ryuk:0.11.0
+2025-06-05T14:51:09.102+05:00  INFO 19788 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 is starting: 6b4e5d8a15dd133df7f8f86c026554859ad64e4502664912d2d03c452b83f9d3
+2025-06-05T14:51:09.363+05:00  INFO 19788 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 started in PT0.4893335S
+2025-06-05T14:51:09.367+05:00  INFO 19788 --- [transfer-money] [main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-05T14:51:09.367+05:00  INFO 19788 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-06-05T14:51:09.367+05:00  INFO 19788 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : ?? Docker server version should be at least 1.6.0
+2025-06-05T14:51:09.368+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:09.393+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 1beafbe6f79f03ffa81e5a4f8b5067ef71e362fb5e8237b4505469b3c0cf3a2c
+2025-06-05T14:51:11.105+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7372284S
+2025-06-05T14:51:12.223+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:12.249+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 0bb8da4ecb59cee53440dd88b67c16ab03fa8a3956a99dfd8d74b49a31fba2cd
+2025-06-05T14:51:13.837+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.6144474S
+2025-06-05T14:51:14.271+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:14.309+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 4dff81797facde26b71820e0d052087ea38292d4cb2778fc87aeef66fed3be24
+2025-06-05T14:51:16.015+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7441603S
+2025-06-05T14:51:16.491+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:16.526+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: c54f199d6c123fc63f7fb8155b0dd2a48bc6ab29d214cfbf98fb4b27c0c317cf
+2025-06-05T14:51:18.258+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7671261S
+2025-06-05T14:51:18.780+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:18.819+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 151572629daa63dd25154add27d25750d5711a24ca54512bce48fc2e7da6a5fd
+2025-06-05T14:51:20.525+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7447466S
+2025-06-05T14:51:21.051+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:21.077+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: bfb8b933271f994517d5055d9aa74752eaa0ee783cda6ca38089112cd0bb6aa0
+2025-06-05T14:51:22.785+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7333644S
+2025-06-05T14:51:23.332+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:23.368+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 69aff01235de523a7664d6c9ce137cc1999718df4d2aeca1aa712ae30a7fe898
+2025-06-05T14:51:25.142+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8101534S
+2025-06-05T14:51:25.601+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:25.629+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 525f73fcbe75294eb541fc3cfd4b91689ec651ff2b1ed76001424386308dbd35
+2025-06-05T14:51:27.441+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8397688S
+2025-06-05T14:51:27.930+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:51:27.967+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 8c54a1da9e469264894d6e1a9d870a03ff8a34f9514fa6c4eaa06acd773d19e7
+2025-06-05T14:51:29.878+05:00  INFO 19788 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.9481024S
+2025-06-05T14:51:30.409+05:00  INFO 19788 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : Starting TransferRequestDtoMoneyApplicationTests using Java 17.0.13 with PID 19788 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T14:51:30.410+05:00  INFO 19788 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:51:30.568+05:00  INFO 19788 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : Started TransferRequestDtoMoneyApplicationTests in 0.174 seconds (process running for 24.497)
+2025-06-05T14:51:30.653+05:00  INFO 19788 --- [transfer-money] [main] r.t.util.TransferDataValidateUtil        : Валидация платежных данных успешна: TransferRequest{cardFromNumber='1111111111111111', cardToNumber='2222222222222222', amount=Amount(currency=RUB, value=1000)}
+2025-06-05T14:52:56.314+05:00  INFO 18056 --- [transfer-money] [main] r.t.i.TransferControllerIntegrationTest  : Starting TransferControllerIntegrationTest using Java 17.0.13 with PID 18056 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T14:52:56.315+05:00  INFO 18056 --- [transfer-money] [main] r.t.i.TransferControllerIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:52:57.351+05:00  INFO 18056 --- [transfer-money] [main] r.t.i.TransferControllerIntegrationTest  : Started TransferControllerIntegrationTest in 1.3 seconds (process running for 2.176)
+2025-06-05T14:52:57.361+05:00  INFO 18056 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:52:57.508+05:00  INFO 18056 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-05T14:52:57.689+05:00  INFO 18056 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-05T14:52:57.690+05:00  INFO 18056 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-06-05T14:52:57.703+05:00  INFO 18056 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 28.0.4
+  API Version: 1.48
+  Operating System: Docker Desktop
+  Total Memory: 3921 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-06-05T14:52:57.731+05:00  INFO 18056 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Creating container for image: testcontainers/ryuk:0.11.0
+2025-06-05T14:52:57.876+05:00  INFO 18056 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 is starting: 707123a094b334aa3e996a7c7e5bc0e03c2bd167ab165f0595932e19f9175638
+2025-06-05T14:52:58.097+05:00  INFO 18056 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 started in PT0.3665334S
+2025-06-05T14:52:58.102+05:00  INFO 18056 --- [transfer-money] [main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-05T14:52:58.103+05:00  INFO 18056 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-06-05T14:52:58.103+05:00  INFO 18056 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : вњ”пёЋ Docker server version should be at least 1.6.0
+2025-06-05T14:52:58.104+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:52:58.140+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 53c29490ff98d899e24b9ae17950c443c986be0860fc88947c5cda69ed6d687b
+2025-06-05T14:52:59.935+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8316689S
+2025-06-05T14:53:00.911+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:00.939+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 25fc18643d38f5d2d1390b151bb2165cfd3f754b0bc45ecb0707b2ec36e75001
+2025-06-05T14:53:02.752+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8411955S
+2025-06-05T14:53:03.189+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:03.217+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 9cd22bddd5d87e0d8c25ed83f18a4ecc7e1c95ec5b3db05049c7f2e3154db375
+2025-06-05T14:53:05.108+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.9188399S
+2025-06-05T14:53:05.588+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:05.614+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: ce46ff31975bb96e8a6557cf4a55ddcc6c9a9c41bdbabf656941a48e49880f67
+2025-06-05T14:53:07.393+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8049645S
+2025-06-05T14:53:07.907+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:07.933+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 4c4de052e0612456c594bcc13bfceb433ed7d244c388b01ec6e3fadc62c02de8
+2025-06-05T14:53:09.761+05:00  INFO 18056 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8540503S
+2025-06-05T14:53:16.961+05:00  INFO 14520 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Starting ConfirmOperationControllerIntegrationTest using Java 17.0.13 with PID 14520 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T14:53:16.964+05:00  INFO 14520 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:53:18.052+05:00  INFO 14520 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Started ConfirmOperationControllerIntegrationTest in 1.352 seconds (process running for 2.157)
+2025-06-05T14:53:18.062+05:00  INFO 14520 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T14:53:18.202+05:00  INFO 14520 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-05T14:53:18.371+05:00  INFO 14520 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-05T14:53:18.372+05:00  INFO 14520 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-06-05T14:53:18.384+05:00  INFO 14520 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 28.0.4
+  API Version: 1.48
+  Operating System: Docker Desktop
+  Total Memory: 3921 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-06-05T14:53:18.411+05:00  INFO 14520 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Creating container for image: testcontainers/ryuk:0.11.0
+2025-06-05T14:53:18.549+05:00  INFO 14520 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 is starting: 5c5e8a2c8a436349164b1c96d3ea71b7d51513600273b01f998e1da0dd559955
+2025-06-05T14:53:18.778+05:00  INFO 14520 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 started in PT0.3655393S
+2025-06-05T14:53:18.781+05:00  INFO 14520 --- [transfer-money] [main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-05T14:53:18.781+05:00  INFO 14520 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-06-05T14:53:18.781+05:00  INFO 14520 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : вњ”пёЋ Docker server version should be at least 1.6.0
+2025-06-05T14:53:18.782+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:18.809+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 027a2a3a0746cafb7993bc6dd6e3cbefae68be31e9270ed004e74118079408db
+2025-06-05T14:53:20.821+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT2.0391978S
+2025-06-05T14:53:21.846+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:21.874+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 99694e8fce88404f4e48f8532964c961c4623ce67372f9c77e918e2e54389581
+2025-06-05T14:53:23.724+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8776679S
+2025-06-05T14:53:24.218+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:24.254+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: db6a6dcf55c5076f1ed0f5c5a3abfdca9f3b25e29a313dbf32b7bfec56dd17d2
+2025-06-05T14:53:26.043+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8249051S
+2025-06-05T14:53:26.557+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T14:53:26.593+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 7c24afeac93b0322fcc4505a597cbc2f382660f93faf8d685433a5bada3d65d0
+2025-06-05T14:53:28.339+05:00  INFO 14520 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7822057S
+2025-06-05T16:13:01.219+05:00  INFO 15280 --- [transfer-money] [main] r.t.i.TransferControllerIntegrationTest  : Starting TransferControllerIntegrationTest using Java 17.0.13 with PID 15280 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T16:13:01.220+05:00  INFO 15280 --- [transfer-money] [main] r.t.i.TransferControllerIntegrationTest  : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T16:13:02.343+05:00  INFO 15280 --- [transfer-money] [main] r.t.i.TransferControllerIntegrationTest  : Started TransferControllerIntegrationTest in 1.385 seconds (process running for 2.241)
+2025-06-05T16:13:02.355+05:00  INFO 15280 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T16:13:02.525+05:00  INFO 15280 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-05T16:13:02.707+05:00  INFO 15280 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-05T16:13:02.708+05:00  INFO 15280 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-06-05T16:13:02.718+05:00  INFO 15280 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 28.0.4
+  API Version: 1.48
+  Operating System: Docker Desktop
+  Total Memory: 3921 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-06-05T16:13:02.747+05:00  INFO 15280 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Creating container for image: testcontainers/ryuk:0.11.0
+2025-06-05T16:13:02.893+05:00  INFO 15280 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 is starting: c5a5e6b8b63ab9f0b56d67c9ab0ec36ae1a41917a85d5a440c93348f00f9716c
+2025-06-05T16:13:03.126+05:00  INFO 15280 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 started in PT0.3791914S
+2025-06-05T16:13:03.129+05:00  INFO 15280 --- [transfer-money] [main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-05T16:13:03.129+05:00  INFO 15280 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-06-05T16:13:03.130+05:00  INFO 15280 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : вњ”пёЋ Docker server version should be at least 1.6.0
+2025-06-05T16:13:03.130+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:13:03.171+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: ec5e93035906123c3d04d79b5a92b4917ee8e398fdb651054cbc8ad48a73e05d
+2025-06-05T16:13:05.247+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT2.1172026S
+2025-06-05T16:13:06.280+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:13:06.324+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 81d2091eb9e665c8281b0d977be9b92d734fd99552e87567c7fd1da6d5a80cf7
+2025-06-05T16:13:08.157+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.877144S
+2025-06-05T16:13:08.640+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:13:08.665+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 7cf3de79ec1a6d9d691c139eeab98be273f2ec6aca904f6f652e01668192aeb0
+2025-06-05T16:13:10.410+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7699614S
+2025-06-05T16:13:10.912+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:13:10.949+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 16cda606820c93ec10a2ad0cda65e805051f2c4827742d626f7e0e3cca83d2e9
+2025-06-05T16:13:12.706+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.794008S
+2025-06-05T16:13:13.200+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:13:13.225+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 7b23cae113b10f749fb1eac627f6665972516eed1f379ff35cf1446745498b28
+2025-06-05T16:13:14.980+05:00  INFO 15280 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7797533S
+2025-06-05T16:14:14.422+05:00  INFO 19856 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Starting ConfirmOperationControllerIntegrationTest using Java 17.0.13 with PID 19856 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T16:14:14.424+05:00  INFO 19856 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T16:14:15.632+05:00  INFO 19856 --- [transfer-money] [main] onfirmOperationControllerIntegrationTest : Started ConfirmOperationControllerIntegrationTest in 1.469 seconds (process running for 2.298)
+2025-06-05T16:14:15.646+05:00  INFO 19856 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Testcontainers version: 1.20.6
+2025-06-05T16:14:15.812+05:00  INFO 19856 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2025-06-05T16:14:16.020+05:00  INFO 19856 --- [transfer-money] [main] o.t.d.DockerClientProviderStrategy       : Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2025-06-05T16:14:16.021+05:00  INFO 19856 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2025-06-05T16:14:16.037+05:00  INFO 19856 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 28.0.4
+  API Version: 1.48
+  Operating System: Docker Desktop
+  Total Memory: 3921 MB
+  Labels: 
+    com.docker.desktop.address=npipe://\\.\pipe\docker_cli
+2025-06-05T16:14:16.072+05:00  INFO 19856 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Creating container for image: testcontainers/ryuk:0.11.0
+2025-06-05T16:14:16.245+05:00  INFO 19856 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 is starting: 77c663bb947a68a9fdfdf0379bb755caa3891402d0a1d3ab1509510c6c618def
+2025-06-05T16:14:16.501+05:00  INFO 19856 --- [transfer-money] [main] tc.testcontainers/ryuk:0.11.0            : Container testcontainers/ryuk:0.11.0 started in PT0.4297494S
+2025-06-05T16:14:16.505+05:00  INFO 19856 --- [transfer-money] [main] o.t.utility.RyukResourceReaper           : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2025-06-05T16:14:16.506+05:00  INFO 19856 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : Checking the system...
+2025-06-05T16:14:16.506+05:00  INFO 19856 --- [transfer-money] [main] org.testcontainers.DockerClientFactory   : ?? Docker server version should be at least 1.6.0
+2025-06-05T16:14:16.507+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:16.533+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 53f2c0e75825103cf7cfdbede00707cac3f2916d16cc9a770f8d0c69c2fed50a
+2025-06-05T16:14:18.259+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7523396S
+2025-06-05T16:14:19.320+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:19.355+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 677c09096031ed8a83c790e5261581b2ef7c7f289e9c99e70029ebba7a1e55f5
+2025-06-05T16:14:21.039+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7191928S
+2025-06-05T16:14:21.492+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:21.530+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 0ac01a6b3dbba7c63156a372406d37b9010cc01facbc972e9b6df806450be90d
+2025-06-05T16:14:23.299+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8068398S
+2025-06-05T16:14:23.798+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:23.823+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 556ccb77f01ba49a983446331ea413f7680b8558a0a8449265091fc9b318d203
+2025-06-05T16:14:25.445+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.6463537S
+2025-06-05T16:14:25.929+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:25.967+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 5291cd4bd2e6d8bfd0ade5ea253a027bd2bff1fa7ff73f57f82ced5c6a081814
+2025-06-05T16:14:27.632+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7030616S
+2025-06-05T16:14:28.106+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:28.143+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 86a61f91378bee2b2ec390275babe92d1c025c59cfbe5ab16b6b32c63c39a78b
+2025-06-05T16:14:29.960+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8532771S
+2025-06-05T16:14:30.418+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:30.453+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: cce263e4192d2ec9fa1b98b62148d3dc0b08961b6b32f75f1a4c59b3603cd46a
+2025-06-05T16:14:32.162+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7439004S
+2025-06-05T16:14:32.676+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:32.704+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: fdf5103313e39c864d8918ba02b8d5627ff782f636cfb81ac264b909ec827ef2
+2025-06-05T16:14:34.399+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.7229522S
+2025-06-05T16:14:34.845+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Creating container for image: transfer-money:latest
+2025-06-05T16:14:34.880+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest is starting: 1821b3b51991aa6ee0fd0c5ec14c2aa738397b615a267f26d7166ec2772199f3
+2025-06-05T16:14:36.655+05:00  INFO 19856 --- [transfer-money] [main] tc.transfer-money:latest                 : Container transfer-money:latest started in PT1.8102371S
+2025-06-05T16:14:37.197+05:00  INFO 19856 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : Starting TransferRequestDtoMoneyApplicationTests using Java 17.0.13 with PID 19856 (started by AR in C:\Users\AR\IdeaProjects\transfer-money)
+2025-06-05T16:14:37.198+05:00  INFO 19856 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T16:14:37.351+05:00  INFO 19856 --- [transfer-money] [main] .TransferRequestDtoMoneyApplicationTests : Started TransferRequestDtoMoneyApplicationTests in 0.172 seconds (process running for 24.016)
+2025-06-05T16:14:37.519+05:00  INFO 19856 --- [transfer-money] [main] r.t.c.ConfirmOperationController         : Успешное выполнение операции с ID: 1
+2025-06-05T16:14:37.656+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Запрос на перевод: TransferRequest{cardFromNumber='11111111111111111', cardToNumber='2222222222222222', amount=Amount(currency=RUB, value=1000)}
+2025-06-05T16:14:37.657+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Комиссия: 0.1
+2025-06-05T16:14:37.662+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Запрос на перевод: TransferRequest{cardFromNumber='1111111111111111', cardToNumber='2222222222222222', amount=Amount(currency=RUB, value=1000)}
+2025-06-05T16:14:37.663+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Комиссия: 0.1
+2025-06-05T16:14:37.666+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Запрос на перевод: TransferRequest{cardFromNumber='1111111111111111', cardToNumber='2222222222222222', amount=Amount(currency=RUB, value=1000)}
+2025-06-05T16:14:37.667+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Комиссия: 0.1
+2025-06-05T16:14:37.670+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Запрос на перевод: TransferRequest{cardFromNumber='1111111111111111', cardToNumber='22222222222222222', amount=Amount(currency=RUB, value=1000)}
+2025-06-05T16:14:37.670+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Комиссия: 0.1
+2025-06-05T16:14:37.678+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Запрос на перевод: TransferRequest{cardFromNumber='1111222233334444', cardToNumber='5555666677778888', amount=Amount(currency=RUB, value=900)}
+2025-06-05T16:14:37.678+05:00  INFO 19856 --- [transfer-money] [main] r.t.controllers.TransferController       : Комиссия: 0.09000000000000001
+2025-06-05T16:14:37.678+05:00  INFO 19856 --- [transfer-money] [main] r.t.util.TransferDataValidateUtil        : Валидация платежных данных успешна: TransferRequest{cardFromNumber='1111222233334444', cardToNumber='5555666677778888', amount=Amount(currency=RUB, value=900)}
+2025-06-05T16:14:37.693+05:00  INFO 19856 --- [transfer-money] [main] r.t.util.TransferDataValidateUtil        : Валидация платежных данных успешна: TransferRequest{cardFromNumber='1111111111111111', cardToNumber='2222222222222222', amount=Amount(currency=RUB, value=1000)}

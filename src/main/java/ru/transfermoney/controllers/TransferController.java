@@ -33,6 +33,8 @@ public class TransferController {
         log.info("Запрос на перевод: {}", transferRequest);
         log.info("Комиссия: {}", CommissionUtil.calculateCommission(transferRequest.getAmount().getValue()));
 
+        TransferDataValidateUtil.validateTransferData(transferRequest);
+
         return ResponseEntity.ok().body(transferService.addOperation(transferRequest));
     }
 }

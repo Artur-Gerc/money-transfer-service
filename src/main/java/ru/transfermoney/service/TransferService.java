@@ -7,7 +7,6 @@ import ru.transfermoney.dao.TransferRequestDao;
 import ru.transfermoney.dto.OperationResponseDto;
 import ru.transfermoney.models.Card;
 import ru.transfermoney.models.TransferRequest;
-import ru.transfermoney.util.TransferDataValidateUtil;
 
 @Service
 public class TransferService {
@@ -39,7 +38,6 @@ public class TransferService {
     }
 
     public OperationResponseDto addOperation(TransferRequest request) {
-        TransferDataValidateUtil.validateTransferData(request);
 
         OperationResponseDto responseDto = new OperationResponseDto();
         String operationId = responseDto.getOperationId();
