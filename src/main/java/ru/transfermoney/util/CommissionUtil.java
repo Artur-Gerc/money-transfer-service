@@ -9,4 +9,8 @@ public class CommissionUtil {
     public double calculateCommission(Integer income) {
         return income * PERCENTAGE;
     }
+
+    public static int calculateCommissionInKopecks(int amountInKopecks) {
+        return (int) Math.round(amountInKopecks * 0.0001);
+    }
 }

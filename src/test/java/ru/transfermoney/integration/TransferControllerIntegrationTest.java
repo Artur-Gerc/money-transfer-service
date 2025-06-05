@@ -23,7 +23,6 @@ import java.util.stream.Stream;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class TransferControllerIntegrationTest {
 
-    // TODO допиши интеграционные тесты
 
     @Autowired
     private TestRestTemplate restTemplate;

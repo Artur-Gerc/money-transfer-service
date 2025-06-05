@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @ToString
 public class OperationResponseDto {
 
-    private static final AtomicLong  currentOperationId = new AtomicLong(0L);
+    private static final AtomicLong currentOperationId = new AtomicLong(0L);
     private String operationId;
 
     public OperationResponseDto() {

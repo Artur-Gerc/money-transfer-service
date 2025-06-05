@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import ru.transfermoney.controllers.TransferController;
 import ru.transfermoney.dto.OperationResponseDto;
+import ru.transfermoney.dto.TransferRequestDto;
 import ru.transfermoney.exceptions.CardDataException;
 import ru.transfermoney.models.Amount;
 import ru.transfermoney.models.TransferRequest;
@@ -26,7 +27,7 @@ public class TransferControllerTest {
 
     @Test
     void testValidData(){
-        TransferRequest transferRequest = new TransferRequest(
+        TransferRequestDto transferRequest = new TransferRequestDto(
                 "1111111111111111",
                 "12/25",
                 "111",
@@ -42,25 +43,25 @@ public class TransferControllerTest {
 
     public static Stream<Arguments> testData(){
         return Stream.of(
-                Arguments.of(new TransferRequest(
+                Arguments.of(new TransferRequestDto(
                         "11111111111111111",
                         "12/25",
                         "111",
                         "2222222222222222",
                         new Amount("RUB", 1000))),
-                Arguments.of(new TransferRequest(
+                Arguments.of(new TransferRequestDto(
                         "1111111111111111",
                         "12/2",
                         "111",
                         "2222222222222222",
                         new Amount("RUB", 1000))),
-                Arguments.of(new TransferRequest(
+                Arguments.of(new TransferRequestDto(
                         "1111111111111111",
                         "12/25",
                         "11",
                         "2222222222222222",
                         new Amount("RUB", 1000))),
-                Arguments.of(new TransferRequest(
+                Arguments.of(new TransferRequestDto(
                         "1111111111111111",
                         "12/25",
                         "111",
@@ -71,7 +72,7 @@ public class TransferControllerTest {
 
     @ParameterizedTest
     @MethodSource("testData")
-    void testInvalidData(TransferRequest transferRequest){
+    void testInvalidData(TransferRequestDto transferRequest){
 
         Assertions.assertThrows(CardDataException.class, () -> transferController.transferMoney(transferRequest));
     }

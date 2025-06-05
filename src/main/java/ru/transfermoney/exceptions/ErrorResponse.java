@@ -1,6 +1,5 @@
 package ru.transfermoney.exceptions;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
